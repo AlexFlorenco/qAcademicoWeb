@@ -19,11 +19,12 @@ body {
     background-color: var(--main-color);
     padding-top: 50px;
     margin: 150px auto;
-    border-radius: 25px;
     border: 1px solid rgb(71, 71, 71);
     border-radius: 25px;
     box-shadow: 7px 7px 5px 1px rgba(0, 0, 0, 0.2);
-
+    background-image: url(/qAcademicoWeb/img/bg-ifce.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .title,
