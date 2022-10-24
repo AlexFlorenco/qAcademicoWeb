@@ -15,11 +15,58 @@ body {
 
 .header {
     width: 100vw;
-    height: 100px;
+    height: 60px;
     background-color: #18862B;
 }
 
-.navbar {}
+.navbar ul{
+    display: flex;
+    margin: 10px auto;
+}
+
+.navbar ul li{
+    position: relative;
+    margin: 0 10px;
+    list-style: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
+.navbar ul li a:after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--text-color);
+    left: 0%;
+    width: 0;
+    bottom: 0;
+    background: var(--text-color);
+    transition: all 350ms ease-in-out;
+}
+.navbar ul li a:hover:after{
+    left: 0;
+    width: 100%;
+}
+
+@keyframes border_anim {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100px;
+	}
+}
+.separador{
+    margin-top: 5px;
+    height: 25px;
+    width: .5px;
+    background-color: rgb(179, 179, 179);
+}
 
 .main-menu {
     width: 780px;
@@ -94,10 +141,6 @@ body {
 
 .btn-secondary:focus {
     background-color: #87a736;
-}
-
-.btn-group {
-    background-color: red;
 }
 
 .dropdown-menu a:hover {
