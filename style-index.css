@@ -13,13 +13,32 @@ body {
     background-color: var(--secondary-color);
 }
 
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color: #18862B;
+}
+
+.navbar {}
+
 .main-menu {
     width: 780px;
     height: 500px;
-    background-color: var(--main-color);
     padding-top: 20px;
     margin: 150px auto;
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 25px;
+    box-shadow: 7px 7px 5px 1px rgba(0, 0, 0, 0.2);
+    background-image: url(./img/bg-ifce.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title,
+.qacademico,
+.subtitle {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+
 }
 
 .welcome {
@@ -56,22 +75,31 @@ body {
 }
 
 .menu-list {
-    width: 106.95px;
+    width: 250px;
     margin: 0 auto;
-
 }
 
 .btn-secondary {
     background-color: #A9CF46;
     border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    width: 250px;
 }
 
 .btn-secondary:hover {
     background-color: #87a736;
+}
 
+.btn-secondary:focus {
+    background-color: #87a736;
 }
 
 .btn-group {
-    position: relative;
+    background-color: red;
+}
 
+.dropdown-menu a:hover {
+    background-color: #A9CF46;
 }
