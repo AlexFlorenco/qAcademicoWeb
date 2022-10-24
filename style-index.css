@@ -1,0 +1,77 @@
+:root {
+    --main-color: #386641;
+    --secondary-color: #f2e8cf;
+    --text-color: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.main-menu {
+    width: 780px;
+    height: 500px;
+    background-color: var(--main-color);
+    padding-top: 20px;
+    margin: 150px auto;
+    border-radius: 25px;
+}
+
+.welcome {
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+}
+
+.main-menu .welcome .title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--text-color);
+    padding-top: 15px;
+
+}
+
+.main-menu .welcome .qacademico {
+    color: #A9CF46;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 65px;
+
+}
+
+.main-menu .welcome .subtitle {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px;
+    line-height: 25px;
+
+}
+
+.menu-list {
+    width: 106.95px;
+    margin: 0 auto;
+
+}
+
+.btn-secondary {
+    background-color: #A9CF46;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #87a736;
+
+}
+
+.btn-group {
+    position: relative;
+
+}
