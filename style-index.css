@@ -2,6 +2,8 @@
     --main-color: #386641;
     --secondary-color: #f2e8cf;
     --text-color: #FFF;
+    --btn-color: #A9CF46;
+    --btn-color-hover: #87a736;
 }
 
 * {
@@ -72,7 +74,7 @@ body {
 }
 
 .btn-secondary {
-    background-color: #A9CF46;
+    background-color: var(--btn-color);
     border: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
@@ -81,7 +83,7 @@ body {
 }
 
 .btn-secondary:hover {
-    background-color: #87a736;
+    background-color: var(--btn-color-hover);
 }
 
 .btn-secondary:focus {

@@ -2,6 +2,9 @@
     --main-color: #386641;
     --secondary-color: #f2e8cf;
     --text-color: #FFF;
+    --bg-color: #18862B;
+    --btn-color: #A9CF46;
+    --btn-color-hover: #87a736;
 }
 
 * {
@@ -17,5 +20,85 @@ body {
     width: 770px;
     height: 100vh;
     margin: 0 auto;
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
+    padding-top: 30px;
+}
+
+.user {
+    display: flex;
+    width: 90%;
+    height: 260px;
+    background-color: #f5e3d0;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 10px;
+    flex-wrap: wrap;
+}
+
+.photo img {
+    width: 140px;
+    height: 193.2px;
+    margin: 0 20px;
+    border-radius: 15px;
+    border: 1px dashed #000;
+}
+
+.info {
+    height: 110px;
+}
+
+.buttons {
+    margin-top: 16px;
+    display: flex;
+    width: 444px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    border: none;
+    height: 60px;
+    max-width: 140px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: var(--btn-color-hover);
+}
+
+.menu {
+    display: flex;
+    width: 90%;
+    height: 52%;
+    background-color: #f5e3d0;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px;
+    flex-wrap: wrap;
+}
+
+.btn-menu {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    height: 250px;
+}
+
+.butons-class {
+    margin: 10px 10px;
+    height: 130px;
+    width: 130px;
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.fa-solid {
+    font-size: 77px;
 }
