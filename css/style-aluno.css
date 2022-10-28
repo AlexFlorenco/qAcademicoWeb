@@ -22,7 +22,7 @@ body {
     border: 1px solid rgb(71, 71, 71);
     border-radius: 25px;
     box-shadow: 7px 7px 5px 1px rgba(0, 0, 0, 0.2);
-    background-image: url(/qacademico/img/bg-ifce.png);
+    background-image: url(/qacademicoweb/img/bg-ifce.png);
     background-size: cover;
     background-position: center;
 }

@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
     background-color: var(--bg-color);
     padding-top: 30px;
+    position: relative;
 }
 
 .user {
@@ -71,8 +72,9 @@ body {
 
 .menu {
     display: flex;
+    position: relative;
     width: 90%;
-    height: 52%;
+    height: 600px;
     background-color: #f5e3d0;
     margin: 10px auto;
     border-radius: 15px;
@@ -81,14 +83,20 @@ body {
     flex-wrap: wrap;
 }
 
+.title{
+    height: 10px;
+    margin: 8px 0 8px 38.5px;
+    padding: 0;
+}
+
 .btn-menu {
-    margin-top: 16px;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 90%;
-    height: 250px;
+    width: 650px;
+    height: 500px;
 }
 
 .butons-class {
@@ -97,8 +105,10 @@ body {
     width: 130px;
     max-width: 130px;
     max-height: 130px;
+    flex-direction: row;
 }
 
 .fa-solid {
-    font-size: 77px;
+    font-size: 50px;
+    margin: 10px;
 }
